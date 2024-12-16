@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Atir Shakhrelia</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="./assets/Resume_Atir_Shakhrelia.pdf" target="_blank" download>Download Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Atir Shakhrelia</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    <li>
+                        <a href="./assets/Resume_Atir_Shakhrelia.pdf" target="_blank" download>Download Resume</a>
+                    </li>
+             
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic-2.png" alt="Atir Shakhrelia profile-pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Atir Shakhrelia</h1>
+            <p class="section__text__p2">Learning and Creating in tech.</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                 onclick="window.open('./assets/Resume_Atir_Shakhrelia.pdf')"
+                >Download Resume</button>
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'"
+                >Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="linkedin Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/atirsakhrelia28/'"
+                >
+                <img src="./assets/github.png" alt="github Profile"
+                class="icon" onclick="location.href='https://github.com/atir5701'"
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile.png" alt="Profile Picture"
+                class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <!-- <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience Icon"
+                        class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ years <br/> Frontend Development</p>
+                    </div> -->
+                    <div class="details-container">
+                        <img 
+                        src="./assets/education.png"
+                        alt="education icon"
+                        class="icon" 
+                        />
+                        <h3>education</h3>
+                        <p>B.Tech Computer Science and Engineering</p>
+                        <br /><p>M.Sc. Computer Science</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hey there! I'm Atir Shakhrelia, a tech enthusiast with a passion for solving complex problems
+                         and exploring innovative solutions.
+                        I hold a Bachelor's degree in Computer Science and Engineering from Nirma University,
+                        where I graduated as a gold medalist, and I’m currently pursuing my Master’s
+                        at Northeastern University.
+                        <br>
+                        With a solid foundation in programming languages like Java, Python, SQL, C++, and
+                        Solidity, I’ve worked on diverse projects, from AI-powered recommendation systems and
+                        blockchain-based solutions to web development and deep learning applications. 
+                        <br>
+                        I thrive both as an individual contributor and as a team player, whether it's 
+                        leading impactful projects or collaborating on challenging problems.With 
+                        professional experience at Johnson Controls-Hitachi, where I enhanced smart technologies. 
+                        <br>
+                        I’m passionate about tackling new challenges and pushing technological boundaries.
+                        Let’s connect and build something innovative!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+        <button class="pre-btn"><img src="./assets/arrow2.png" alt=""></button>
+        <button class="nxt-btn"><img src="./assets/arrow2.png" alt=""></button>
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="project-container">
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Research and Development Intern</h2>
+                    <p><strong>Johnson Controls-Hitachi, Ahmedabad, India</strong> <br> <em>Jan 2024 – Jun 2024</em></p>
+                    <div class="article-container">
+                        <article>
+                            <ul>
+                                <li>Developed a Bluetooth communication infrastructure for Hitachi Air Conditioners using the UART protocol, improving connection stability by 33%.</li>
+                                <li>Created a user-friendly mobile app in Android Studio to serve as a digital remote control, enhancing device communication speed by 40%.</li>
+                                <li>Expanded the communication range from 7m to 55m, making non-line-of-sight (NLOS) communication possible, thus improving the overall product functionality.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Research Assistant</h2>
+                    <p><strong>Centre of Excellence in Data Science, Nirma University, Ahmedabad, India</strong> <br> <em>May 2023 – Jul 2023</em></p>
+                    <div class="article-container">
+                        <article>
+                            <ul>
+                                <li>Led a project on instance segmentation of blister packets using <strong>Mask RCNN</strong>, reducing manual inspection time by 50%.</li>
+                                <li>Improved data retention (batch numbers, expiration dates) for QR code printing, achieving 100% information accuracy.</li>
+                                <li>Streamlined quality assurance operations by automating the segmentation process, enhancing efficiency.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Development and Machine Learning Intern</h2>
+                    <p><strong>Sixth Sense Info Pvt. LTD, Ahmedabad, India</strong> <br> <em>May 2022 – Jul 2022</em></p>
+                    <div class="article-container">
+                        <article>
+                            <ul>
+                                <li>Developed a WordPress-based Content Management System (CMS), optimizing SEO performance and increasing visitor engagement by 40%.</li>
+            <li>Enhanced website functionality and usability, leading to a 25% increase in page views and overall site performance.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <button class="pre-btn"><img src="./assets/arrow2.png" alt=""></button>
+        <button class="nxt-btn"><img src="./assets/arrow2.png" alt=""></button>
+        <p class="section__text__p1">Browse My</p>
+        <h1 class="title">Projects</h1>
+        <div class="project-container">
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/market.png" alt="project pic" 
+                    class="project-img">
+                    <h2 class="experience-sub-title project-title">Stock Pattern Detection</h2>
+                    <p class="project-description">
+                        Developed during a hackathon, this project uses <strong>Perceptually Important Points (PIPs)</strong> and a <strong>sliding window</strong> approach to identify stock patterns.
+                    </p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/atir5701/Stock-Pattern-Detection-using-sliding-window'">
+                        GitHub</button>
+                    </div>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/car.png" alt="project pic" 
+                    class="project-img">
+                    <h2 class="experience-sub-title project-title">Drowsiness Detection for ITS</h2>
+                    <p class="project-description">
+                        This project leverages <strong>Federated Learning</strong> and <strong>Blockchain</strong> to create a secure, privacy-preserving system for detecting driver drowsiness in real-time.
+                    </p>
+                    
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/atir5701/Drowsiness-Detection-for-Intelligent-Transportation-Systems'">GitHub</button>
+                    </div>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/soccer.png" alt="project pic" 
+                    class="project-img">
+                    <h2 class="experience-sub-title project-title" style="font-size:1.3rem;">SoccerScout : Player recommendation</h2>
+                    <p class="project-description"> 
+                        Developed an AI-driven player recommendation system for FIFA e-sports, to improve search accuracy based on budget and player stats.
+                    </p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/atir5701/Soccer-Scout-A-Smart-Player-Recommendation'">GitHub</button>
+                    </div>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/ocr.png" alt="project pic" 
+                    class="project-img">
+                    <h2 class="experience-sub-title project-title"  style="font-size:1.3rem;">Multi-Lingual Handwritten Digit Classification</h2>
+                    <p class="project-description">
+                        Redesigned a digit recognition system by implementing a multiplexer model, improving accuracy in recognizing handwritten digits across 5 regional languages.
+                    </p>
+        
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/atir5701/Multilingual-Handwritten-Digit-Recognition-Using-DeepLearning-Model'">GitHub</button>
+                    </div>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/book-stack.png" alt="project pic" 
+                    class="project-img">
+                    <h2 class="experience-sub-title project-title" style="font-size:1.4rem;">BookNest: Ensemble-based Book Recommendation System</h2>
+                    <p class="project-description">
+                        Created an ensemble-based book recommendation system that combines multiple approaches to analyze user reviews and book descriptions for improved prediction accuracy.
+                    </p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/atir5701/BookNest-Ensemle-based-Book-Recommendation-System'">GitHub</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img
+                src="./assets/email.png"
+                alt="Email icon"
+                class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:atirsakhrelia@gmail.com">Mail</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                src="./assets/linkedin.png"
+                alt="linkedin icon"
+                class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/atirsakhrelia28/">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                src="./assets/phone.jpg"
+                alt="phone icon"
+                class="icon contact-icon"
+                />
+                <p>+1 (857)-605-9479</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="./assets/Resume_Atir_Shakhrelia.pdf" target="_blank" download>Download Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
