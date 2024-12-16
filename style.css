@@ -181,6 +181,16 @@ section{
     text-align: center;
 }
 
+.section_text .typewriter{
+    font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
+    font-weight: 600;
+}
+
+.section_text .typewriter-text{
+    color: blue;
+    text-shadow: 0 0 10px blue;
+}
+
 .section__text p{
     font-weight: 600;
 }
@@ -483,3 +493,30 @@ article li {
 }
 
 
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem auto;
+    text-align: center; 
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1rem;
+    background: blue;
+    color: red;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: 2px solid var(--main-color);
+    margin: 1.5rem 0;
+    resize: none;
+}
